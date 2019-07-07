@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head>h1{
+    font-weight: normal;
+    text-align: center;
+    line-height: 130px;
+    font-size: 40px;
+
+}
+.play-top>head{
+    width: 100%;
+    height: 130px;
+}
+.container{
+    width: 1000px;
+   margin: 0 auto;
+}
+.play_nav{
+    text-align: center;
+}
+.play_nav>a{
+    width: 165px;
+    height: 50px;
+    display: inline-block;
+    text-decoration: none;
+   line-height: 50px;
+    color: #b1acb2;
+    font-size: 16px;
+}
+.content{
+    margin-top: 25px;
+}
+.content ul{
+    list-style: none;
+    overflow: hidden;
+}
+.content li{
+    width: 220px;
+    height: 231px;
+    line-height: 21px;
+    margin: 0 37px 20px 0;
+    float: left;
+    border: 1px solid #e6e9e9;
+    border-radius: 6px;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+.content li:nth-child(4n){
+    margin: 0 0px 20px 0;
+}
+.content ul li a{
+    color: #474747;
+    display: block;
+    /*border: 1px solid #CCCCCC;*/
+}
+.content ul li img{
+    border-radius: 6px 6px 0 0;
+}
+.content li .info {
+    padding: 7px 10px 10px;
+}
+.content .info .name {
+    font-size: 14px;
+    height: 45px;
+    overflow: hidden;
+    word-break: break-all;
+}
+.content .info .name span{
+    color: #a3a3a3;
+    display: block;
+    font-size: 12px;
+}
+.content.tip{
+    color: #a3a3a3;
+    padding: 13px 0;
+}
+.content .price{
+    font-size: 14px;
+    color: #fe5431;
+}
+.content .icon{
+    float: right;
+}
+.content .icon span{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 14px;
+    margin-left: 3px;
+    font-size: 12px;
+    color: #c4c4c4;
+}
+.content .icon .xin{
+    background: url("../img/xin.png")no-repeat left center;
+}
+.content .icon .look{
+    background: url("../img/reply.png")no-repeat left center;
+}
+ .content .playmore{
+     text-align: center;
+     font-size: 16px;
+     padding-top: 10px;
+     padding-bottom: 50px;
+     color: #a3a3a3;
+     color: #fe5341;
+     padding-left: 24px;
+ }
+ .content .playmore .more{
+     margin-right: 5px;
+ }
+.playmore{
+    color:#a3a3a3;
+}
+.playmore .more-btn{
+    background:url("../img/more.png") no-repeat left center;color:#fe5341;
+    padding-left: 24px;
+}
+.playmore .loading{background-image:url("../img/loading-icon.gif");}
+ /*动画效果*/
+.playmore .no-more{
+    color: #a3a3a3;
+}

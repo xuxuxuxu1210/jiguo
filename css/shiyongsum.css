@@ -1,0 +1,179 @@
+#min{
+	width: 100%;
+	height: 151px;
+	border-bottom: 1px solid #CCCCCC;
+	box-shadow: 0 0 5px #CCCCCC;
+	text-align: center;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+#min .container>div{
+	font-size: 31px;
+	line-height: 116px;
+	
+}
+#min .container span{
+	width: 165px;
+	text-align: center;
+	display: inline-block;
+	padding-bottom: 10px;
+	color: #9f9b9c;
+	border-bottom: 4px solid transparent;
+	cursor: pointer;
+}
+#min .container span.hover,#min .container span:hover{
+	color: #FA553F;
+	border-bottom-color: #FA553F;
+}
+.nav{
+	text-align: center;
+}
+.nav ul{
+	margin-left: 226px;
+}
+.nav li{
+	float: left;
+	line-height: 50px;
+	margin-right: 114px;
+}
+.nav li a{
+	color: #9F9B9C;
+}
+.nav li.active a,.nav li:hover a{
+	color: #505050;
+}
+section{
+	width: 100%;
+	background-color: #f7f7f7;
+	padding-top: 20px;
+}
+.adf{
+	width: 220px;
+    float: left;
+    border: 1px solid #eaeaea;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 37px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: opacity 500ms linear;
+}
+.adf:nth-of-type(4n){
+	margin-right: 0;
+}
+.adf img{
+	width: 100%;
+	height: 130px;
+}
+.adf .boxa,.adf .boxb,.adf .boxc,.adf .boxd,.adf .box{
+	padding: 16px 10px;
+}
+.adf .boxa p:first-of-type span,.adf .boxb p:first-of-type span,.adf .boxc p:first-of-type span,.adf .boxd p:first-of-type span,.adf .box p:first-of-type span{
+	width: 50px;
+	height: 25px;
+	display: inline-block;
+	padding: 4px 10px;
+	border-radius: 5px;
+	margin: 0 10px;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+/*第一种样式灰色*/
+.boxa p:nth-of-type(1){
+	margin: 10px 0;
+	color: #cfcfcf;
+}
+.boxa p:nth-of-type(2) span{
+	color: #ff473b;
+}
+.boxa p:nth-of-type(2){
+	margin: 3px 0 10px 0;
+}
+.boxa p:nth-of-type(3){
+	color: #cfcfcf;
+}
+.adf .boxa p:first-of-type span{
+	border: 1px solid #CFCFCF;
+}
+/*第二种样式黄色*/
+
+.boxb p:nth-of-type(1),.boxd p:nth-of-type(1),.box p:nth-of-type(1){
+	margin: 10px 0;
+	color: #f65b3d;
+}
+.boxb p:nth-of-type(2) span,.boxd p:nth-of-type(2) span,.box p:nth-of-type(2) span{
+	color: #ff473b;
+}
+.boxb p:nth-of-type(2),.boxd:nth-of-type(2) span,.box:nth-of-type(2) span{
+	margin: 3px 0 10px 0;
+}
+.boxb p:nth-of-type(3),.boxd p:nth-of-type(3),.box p:nth-of-type(3){
+	color: #f65b3d;
+}
+.adf .boxb p:first-of-type span,.adf .boxd p:first-of-type span,.adf .box p:first-of-type span{
+	border: 1px solid #f65b3d;
+}
+/*第三种样式绿色*/
+.boxc p:nth-of-type(1){
+	margin: 10px 0;
+	color: #7bc862;
+}
+.boxc p:nth-of-type(2) span{
+	color: #ff473b;
+}
+.boxc p:nth-of-type(2){
+	margin: 3px 0 10px 0;
+}
+.boxc p:nth-of-type(3){
+	color: #7bc862;
+}
+/*大众试用申请中样式*/
+.bocd~span{
+	width: 22px;
+	height: 77px;
+	
+}
+.aa{
+	color: #505050 !important;
+}
+.adf .boxc p:first-of-type span{
+	border: 1px solid #7bc862;
+}
+.adf>span{
+	width: 40px;
+	height: 25px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-bottom-left-radius: 5px ;
+	background-color: #FA553F;
+	color: #fff;
+	padding-top: 3px;
+	font-size: 13px;
+	box-sizing: border-box;
+}
+.zuangx{
+	width: 77px !important;
+	height: 22px !important;
+	background-color: #f9f2c8 !important;
+	color: #cec989 !important;
+}
+/*最下部的向下拉加载更多*/
+section>div>p{
+	line-height: 70px;
+	text-align: center;
+	color: #F65B3D;
+	margin-bottom: 20px;
+
+}
+section>div>p>span{
+	cursor: pointer;
+}
+section>div:after{
+	content: "";
+	display: table;
+}

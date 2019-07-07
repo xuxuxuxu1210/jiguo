@@ -1,0 +1,35 @@
+{
+    "content": [{
+        "img": "img/g1.jpg",
+        "title": "花万元把蜗居秒变“豪宅”？这十二件家具就能帮你办到",
+        "price": "￥1212",
+        "like": 3,
+        "comment": 3,
+        "like_img": "img/xin.png",
+        "comment_img": "img/reply.png"
+    }, {
+        "img": "img/g2.jpg",
+        "title": "B&O SengSound 35 音响",
+        "price": "￥512",
+        "like": 3,
+        "comment": 3,
+        "like_img": "img/xin.png",
+        "comment_img": "img/reply.png"
+    }, {
+        "img": "img/g3.jpg",
+        "title": "Mozbil 触控吸色笔",
+        "price": "￥暂无",
+        "like": 3,
+        "comment": 3,
+        "like_img": "img/xin.png",
+        "comment_img": "img/reply.png"
+    }, {
+        "img": "img/g4.jpg",
+        "title": "XPlORER 2航拍飞行器",
+        "price": "￥433",
+        "like": 3,
+        "comment": 3,
+        "like_img": "img/xin.png",
+        "comment_img": "img/reply.png"
+    }]
+}

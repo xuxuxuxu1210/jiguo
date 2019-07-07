@@ -1,0 +1,66 @@
+/**合作**/
+.about .grawBg{
+    background:#f3f3f3;
+    padding:25px 20px;
+    border-radius:5px;
+}
+.listR{
+    width: 270px;
+    float: left;
+    margin-left: 140px;
+}
+.listInfo{
+   margin-left: 460px;
+    width: 700px;
+}
+.about .grawBg h2{
+    color:#444;
+}
+.about .listR a,.about .about-info{
+    color:#535353;
+}
+.about .about-info h5{
+    color:#474747;
+}
+.about{
+    margin:50px auto;
+}
+.about .listInfo .grawBg{
+    padding:25px 33px;
+}
+.about .grawBg h2{
+    font-size:20px;
+    line-height:38px;
+    font-weight:900;
+    border-bottom:1px solid #a0a0a0;
+}
+.about .listR h2{
+    padding-left:18px;
+}
+.about .listR dl{
+    padding:10px 18px;
+    font-size:16px;
+    line-height:1.7;
+}
+.about .listR dt{
+    font-weight:bold;
+}
+.about .listR dd{
+    padding-left:15px;
+}
+.about .about-info{
+    font-size:16px;
+}
+.about .about-info h3{
+    font-size:16px;
+    padding:25px 0 20px;
+    font-weight:bold;
+}
+.about .about-info p{
+    line-height:1.8;
+}
+.about .about-info h5{
+    font-size:20px;
+    padding:18px 0 16px;
+    font-weight:bold;
+}

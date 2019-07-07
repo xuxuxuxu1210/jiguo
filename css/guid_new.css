@@ -1,0 +1,18 @@
+.on{
+    border-bottom: 2px solid #fe5431;
+    color: #fe5431;
+}
+.guid ul li{
+    height: 222px;
+    margin-bottom: 35px;
+}
+.guid li .info {
+
+    background: url("../img/listbg.jpg") no-repeat left bottom;
+    background-size: 221px 19px;
+}
+.guid li .info .tip{
+    overflow: hidden;
+    padding: 12px 0;
+}
+

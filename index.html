@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/header&footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/indexstyle.css"/>
+		<script src="js/doT.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header>
+			<div id="container" class="iscleat">
+				<img src="img/logonew.png" class="fl" alt="" />	
+				<ul class="fl">
+					<li class="active"><a href="index.html">首页</a></li>
+					<li><a href="play/play.html">酷玩</a></li>
+					<li><a href="guid/new.html">导购</a></li>
+					<li><a href="use/shiyongsum.html">试用</a></li>
+					<li><a href="report/index.html">报告</a></li>
+				</ul>
+				<div class="fr">
+					<div class="formgrop fl">
+						<label for=""></label>
+						<input type="text" name="serch" id="serch" value="" />
+					</div>
+					<a href="regist.html"> <button>注册</button></a>
+				</div>
+			</div>
+		</header>
+		
+		<section>
+        <div class="baner">
+            <div>
+                <div class="baner-right">
+                    <h3>幻想小贝HiFi2.1音响</h3>
+                    <p class="apply">
+                        <span>126人申请</span>
+                        <span>￥599</span>
+                        <span>20台</span>
+                    </p>
+                    <p>申请时间剩余：<span id="time"></span></p>
+                    <button>立即申请</button>
+                </div>
+            </div>
+        </div>
+        <div class="slides">
+            <div class="show">
+                <span id="left"></span>
+                <h3>热门试用</h3>
+                <div>
+
+                    <ul id="list"></ul>
+                </div>
+                <span id="right"></span>
+            </div>
+        </div>
+        <div class="two">
+            <div class="sectionCenter">
+                <h3>报告精选<span class="more">查看更多</span></h3>
+                <ul id="center_list"></ul>
+            </div>
+        </div>
+        <div class="guide">
+            <h3>导购精选<span class="more">查看更多</span></h3>
+            <ul id="guide"></ul>
+        </div>
+        <div class="last">
+            <h3>发现酷玩<span class="more">查看更多</span></h3>
+            <ul id="last_list"></ul>
+        </div>
+        <p class="btn">点击加载更多</p>
+    </section>
+
+		
+		
+		
+		<footer>
+			<div id="container" class="iscleat">
+				<img src="img/code.png" alt="" / class="fl">
+				<div class="fl">
+					<img src="img/logoImg.jpg" alt="" />
+					<p>全球酷玩试用导购平台酷·新奇·好玩·品质</p>
+					<p>微信添加"JguoJguo"获取我们的服务。</p>
+				</div>
+				<dl class="fl">
+					<dt>
+						<a href="help.html" style="color: white">
+						免费试用
+						</a>
+					</dt>
+					<dd>
+						<ul>
+							<li><a href="#">使用流程</a></li>
+							<li><a href="#">如何提高成功率</a></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="fl biglist iscleat">
+					<dt>
+						友情链接
+					</dt>
+					<dd>
+						<ul>
+							<li><a href="#">智东西</a></li>
+							<li><a href="#">搜狐IT</a></li>
+							<li><a href="#">搜狐数码</a></li>
+							<li><a href="#">凤凰数码</a></li>
+							<li><a href="#">泡泡网</a></li>
+							<li><a href="#">ZUK社区</a></li>
+							<li><a href="#">极客公园</a></li>
+							<li><a href="#">果库</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">WEIBUSI</a></li>
+							<li><a href="#">腾讯科技</a></li>
+							<li><a href="#">凤凰科技</a></li>
+							<li><a href="#">PConline</a></li>
+							<li><a href="#">3W咖啡</a></li>
+							<li><a href="#">亿觅emie</a></li>
+							<li><a href="#">易迅易启玩</a></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="fl">
+					<dt>
+						购买攻略
+					</dt>
+					<dd>
+						<ul>
+							<li><a href="#">美亚海淘教程</a></li>
+							<li><a href="#">日亚海淘教程</a></li>
+							<li><a href="#">海淘转运攻略</a></li>
+							<li><a href="#">kickstarter众筹购买攻略</a></li>
+							<li><a href="#">indiegogo众筹购买攻略</a></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="fl">
+					<dt>
+						 <a href="about.html" style="color: white">
+						厂商合作
+						</a>
+					</dt>
+					<dd>
+						<ul>
+							<li><a href="about.html">关于极果</a></li>
+							<li><a href="#">联系我们</a></li>
+							<li><a href="#">商务合作:BD@jiguo.com</a></li>
+							<li><a href="#">CEO邮箱:CEO@jiguo.com</a></li>
+						</ul>
+					</dd>
+				</dl>
+			</div>
+			<p>&copy;2016极果版权所有</p>
+			<button></button>
+		</footer>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/sheep.js" type="text/javascript" charset="utf-8"></script>
+		<script id="sy_tpl" type="text/x-dot-template">
+    {{~it.content:value:index}}
+    <li>
+        <img src="{{=value.img}}" alt=""> {{?value.first === "体验师专享"}}
+        <span class="ty">{{=value.first}}</span> {{??value.first === "首发"}}
+        <span class="text">{{=value.first}}</span> {{?}}
+        <div class="box">
+            <h4>{{=value.txt}}</h4>
+            {{?value.info.type === 2}}
+            <div class="num1">
+                {{~value.num_arr:val:ind}}
+                <span>{{=val}}</span> {{~}}
+            </div>
+            {{??}}
+            <div class="num">
+                {{~value.num_arr:val:ind}}
+                <span>{{=val}}</span> {{~}}
+            </div> {{?}}
+            <div class="sq"><span>{{=value.proposer_num}}</span>申请</div>
+            {{?value.info.type === 0 &&value.info.num}}
+            <div class="info">报告数量{{=value.info.num}}</div>
+            {{??value.info.type === 1 && value.info.num}}
+            <div class="info">剩余天数{{=value.info.num}}</div>
+            {{??value.info.type === 2}}
+            <div class="info1">查看试用名单</div>
+            {{?}}
+        </div>
+    </li>
+    {{~}}
+</script>
+<script id="sy_tp2" type="text/x-dot-template">
+    {{~it.content:value:index}}
+    <li>
+        <img src="{{=value.img}}" alt="">
+
+        <div class="box">
+            <h4>{{=value.txt}}</h4>
+            <div class="name">
+                <span>·<span>{{=value.name}}</span></span>
+                <span><img src="{{=value.comment_img}}"></span>
+                <span><img src="{{=value.like_img}}"></span>
+            </div>
+
+        </div>
+    </li>
+    {{~}}
+</script>
+<script id="sy_tp3" type="text/x-dot-template">
+    {{~it.content:value:index}}
+    <li>
+        <img src="{{=value.img}}" alt="">
+
+        <div class="box">
+            <h4>{{=value.title}}</h4>
+
+            <span><img src="{{=value.comment_img}}"></span>
+            <span><img src="{{=value.like_img}}"></span>
+
+
+        </div>
+        <span></span>
+        <span></span>
+    </li>
+    {{~}}
+</script>
+<script id="sy_tp4" type="text/x-dot-template">
+    {{~it.content:value:index}}
+    <li>
+        <img src="{{=value.img}}" alt="">
+
+        <div class="box">
+            <h4>{{=value.title}}</h4>
+            <p>{{=value.txt}}</p>
+            <div>
+                <span>{{=value.price}}</span>
+                <span><img src="{{=value.comment_img}}"></span>
+                <span><img src="{{=value.like_img}}"></span>
+
+            </div>
+
+        </div>
+    </li>
+    {{~}}
+</script>
+	</body>
+</html>

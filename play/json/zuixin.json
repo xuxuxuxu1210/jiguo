@@ -1,0 +1,132 @@
+{
+  "new_list":[
+    {
+      "img_url":"../img/k1.jpg"  ,
+      "title":"SCiO 微型光谱仪",
+      "des":"可以测定食物成分及营养",
+      "price":1212,
+      "xin":"3",
+      "look":"3"
+    },
+    {
+      "img_url":"../img/k2.jpg"  ,
+      "title":"SCiO 微型光谱仪",
+      "des":"可以测定食物成分及营养",
+      "price":512,
+      "xin":"3",
+      "look":"3"
+      },
+    {
+      "img_url":"../img/k3.jpg"  ,
+      "title":"SCiO 微型光谱仪",
+      "des":"可以测定食物成分及营养",
+      "price":"暂无",
+      "xin":"3",
+      "look":"3"
+    },
+    {
+      "img_url":"../img/k4.jpg"  ,
+      "title":"SCiO 微型光谱仪",
+      "des":"可以测定食物成分及营养",
+      "price":433,
+      "xin":"3",
+      "look":"3"
+    } ,
+    {
+      "img_url":"../img/k1.jpg"  ,
+      "title":"SCiO 微型光谱仪",
+      "des":"可以测定食物成分及营养",
+      "price":1212,
+      "xin":"3",
+      "look":"3"
+    },
+    {
+      "img_url":"../img/k2.jpg"  ,
+      "title":"SCiO 微型光谱仪",
+      "des":"可以测定食物成分及营养",
+      "price":512,
+      "xin":"3",
+      "look":"3"
+    },
+    {
+      "img_url":"../img/k3.jpg"  ,
+      "title":"SCiO 微型光谱仪",
+      "des":"可以测定食物成分及营养",
+      "price":"暂无",
+      "xin":"3",
+      "look":"3"
+    },
+    {
+      "img_url":"../img/k4.jpg"  ,
+      "title":"SCiO 微型光谱仪",
+      "des":"可以测定食物成分及营养",
+      "price":433,
+      "xin":"3",
+      "look":"3"
+    },
+    {
+      "img_url":"../img/k1.jpg"  ,
+      "title":"SCiO 微型光谱仪",
+      "des":"可以测定食物成分及营养",
+      "price":1212,
+      "xin":"3",
+      "look":"3"
+    },
+    {
+      "img_url":"../img/k2.jpg"  ,
+      "title":"SCiO 微型光谱仪",
+      "des":"可以测定食物成分及营养",
+      "price":512,
+      "xin":"3",
+      "look":"3"
+    },
+    {
+      "img_url":"../img/k3.jpg"  ,
+      "title":"SCiO 微型光谱仪",
+      "des":"可以测定食物成分及营养",
+      "price":"暂无",
+      "xin":"3",
+      "look":"3"
+    },
+    {
+      "img_url":"../img/k4.jpg"  ,
+      "title":"SCiO 微型光谱仪",
+      "des":"可以测定食物成分及营养",
+      "price":433,
+      "xin":"3",
+      "look":"3"
+    },
+    {
+      "img_url":"../img/k1.jpg"  ,
+      "title":"SCiO 微型光谱仪",
+      "des":"可以测定食物成分及营养",
+      "price":1212,
+      "xin":"3",
+      "look":"3"
+    },
+    {
+      "img_url":"../img/k2.jpg"  ,
+      "title":"SCiO 微型光谱仪",
+      "des":"可以测定食物成分及营养",
+      "price":512,
+      "xin":"3",
+      "look":"3"
+    },
+    {
+      "img_url":"../img/k3.jpg"  ,
+      "title":"SCiO 微型光谱仪",
+      "des":"可以测定食物成分及营养",
+      "price":"暂无",
+      "xin":"3",
+      "look":"3"
+    },
+    {
+      "img_url":"../img/k4.jpg"  ,
+      "title":"SCiO 微型光谱仪",
+      "des":"可以测定食物成分及营养",
+      "price":433,
+      "xin":"3",
+      "look":"3"
+    }
+    ]
+}

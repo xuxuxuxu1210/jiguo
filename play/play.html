@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>play</title>
+    <link rel="stylesheet" href="../css/play.css">
+    <link rel="stylesheet" href="../css/animation.css">
+    <link rel="stylesheet" href="../css/pul.css">
+</head>
+<body>
+<header>
+    <div id="container">
+        <img src="../img/logonew.png" class="fl" alt="" />
+        <ul class="fl">
+            <li class="active"><a href="../index.html">首页</a></li>
+            <li><a href="play.html">酷玩</a></li>
+            <li><a href="../guid/new.html">导购</a></li>
+            <li><a href="../use/shiyongsum.html">试用</a></li>
+            <li><a href="../report/index.html">报告</a></li>
+        </ul>
+        <div class="fr">
+            <div class="formgrop fl">
+                <label for=""></label>
+                <input type="text" name="serch" id="serch" value="" />
+            </div>
+            <a href="../regist.html"> <button>注册</button></a>
+        </div>
+    </div>
+</header>
+<!--酷玩部分-->
+<div class="container">
+    <div class="play_top">
+        <div class="head"><h1>发现酷玩</h1></div>
+        <nav class="play_nav">
+            <a href="javascript:void(0);" class="on">最新</a>
+            <a href="hot.html">最热</a>
+            <a href="category.html">品类</a>
+        </nav>
+    </div>
+    <div class="content">
+         <div>
+             <ul id="myDiv">
+                 <!--<li>
+                     <a href="../use/detail.html">
+                         <img src="../img/k1.jpg" width="220" height="130"/>
+                         <div class="info">
+                             <p class="name">SCiO 微型光谱仪<span>可以测定食物成分及营养</span></p>
+                             <div class="tip fix">
+                                 <span class="price left">￥ 1212</span>
+                                 <div class="right icon">
+                                     <span class="xin">3</span>
+                                     <span class="look">3</span>
+                                 </div>
+                             </div>
+                         </div>
+                     </a>
+                 </li>-->
+             </ul>
+             <div class="playmore">
+                 <a href="javascript:void(0);" class="more-btn comMore">点击加载更多</a>
+             </div>
+         </div>
+    </div>
+</div>
+
+<footer>
+    <div id="container" class="iscleat">
+        <img src="../img/code.png" alt="" class="fl">
+        <div class="fl">
+            <img src="../img/logoImg.jpg" alt="" />
+            <p>全球酷玩试用导购平台酷·新奇·好玩·品质</p>
+            <p>微信添加"JguoJguo"获取我们的服务。</p>
+        </div>
+        <dl class="fl">
+            <dt>
+                <a href="../help.html" style="color: white">
+						免费试用
+						</a>
+            </dt>
+            <dd>
+                <ul>
+                    <li><a href="#">使用流程</a></li>
+                    <li><a href="#">如何提高成功率</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl class="fl biglist iscleat">
+            <dt>
+                友情链接
+            </dt>
+            <dd>
+                <ul>
+                    <li><a href="#">智东西</a></li>
+                    <li><a href="#">搜狐IT</a></li>
+                    <li><a href="#">搜狐数码</a></li>
+                    <li><a href="#">凤凰数码</a></li>
+                    <li><a href="#">泡泡网</a></li>
+                    <li><a href="#">ZUK社区</a></li>
+                    <li><a href="#">极客公园</a></li>
+                    <li><a href="#">果库</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">WEIBUSI</a></li>
+                    <li><a href="#">腾讯科技</a></li>
+                    <li><a href="#">凤凰科技</a></li>
+                    <li><a href="#">PConline</a></li>
+                    <li><a href="#">3W咖啡</a></li>
+                    <li><a href="#">亿觅emie</a></li>
+                    <li><a href="#">易迅易启玩</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl class="fl">
+            <dt>
+                购买攻略
+            </dt>
+            <dd>
+                <ul>
+                    <li><a href="#">美亚海淘教程</a></li>
+                    <li><a href="#">日亚海淘教程</a></li>
+                    <li><a href="#">海淘转运攻略</a></li>
+                    <li><a href="#">kickstarter众筹购买攻略</a></li>
+                    <li><a href="#">indiegogo众筹购买攻略</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl class="fl">
+            <dt>
+                <a href="../about.html" style="color: white">
+						厂商合作
+						</a>
+            </dt>
+            <dd>
+                <ul>
+                    <li><a href="../about.html">关于极果</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">商务合作:BD@jiguo.com</a></li>
+                    <li><a href="#">CEO邮箱:CEO@jiguo.com</a></li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+    <p>&copy;2016极果版权所有</p>
+    <button></button>
+</footer>
+<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/doT.min.js"></script>
+<script src="../js/play.js"></script>
+<script id="new_" type="text/x-dot-template">
+    {{~it.new_list:value:index}}
+    <li>
+        <a href="../use/detail.html">
+            <img src="{{=value.img_url}}" width="220" height="130"/>
+            <div class="info">
+                <p class="name">{{=value.title}}<span>{{=value.des}}</span></p>
+                <div class="tip fix">
+                    <span class="price left">￥ {{=value.price}}</span>
+                    <div class="right icon">
+                        <span class="xin">{{=value.xin}}</span>
+                        <span class="look">{{=value.look}}</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+    </li>
+    {{~}}
+
+</script>
+<script>
+    $.ajax({
+        url: "json/zuixin.json",
+        success: function (data) {
+            console.log(data);
+
+            //dot.js 模板引擎
+            var nl = doT.template($('#new_').text());
+            $('#myDiv').html(nl(data));
+        }
+    });
+</script>
+</body>
+</html>
